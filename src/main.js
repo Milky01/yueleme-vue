@@ -12,7 +12,7 @@ axios.interceptors.request.use(config => {
     return config
 })
 Vue.prototype.BASE_URL = 'http://192.168.2.160:8888/pic/'
-// Vue.prototype.AVATAR_BASE_URL = 'http://192.168.2.160:8888/avatar/'
+Vue.prototype.AVATAR_BASE_URL = 'http://192.168.2.160:8888/avatar/'
 Vue.prototype.$http = axios
 
 Vue.config.productionTip = false
